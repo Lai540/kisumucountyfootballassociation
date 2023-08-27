@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    background-color: ghostwhite;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: slategrey;
+  position: static;
+  color: white;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 100px; 
+  height: 100px; 
+  margin-right: 10px;
+}
+
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  margin-right: 5%;
+}
+
+.navbar-logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.bar {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  align-content: space-between;
+  color: white;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  color: white;
+}
+
+.navbar-item:last-child {
+  margin-right: 0;
+
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+
+  }
+
+  .navbar-toggle {
+    margin-right: 10px;
+  }
+}
+
+.button {
+  background-color: darkred;
+}
+
+main {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+main h1, h2{
+
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.about_1{
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: brightness(1.0);
+    line-height: 40px;
+}
+
+.about_1 h1 {
+
+    text-align: center;
+    border: 2px grooved black;
+}
+
+.about_1 p {
+    text-align: center;
+    font-size: 18px;
+    margin: 5%;
+}
+
+.about_1 ul {
+    font-size: 18px;
+    line-height: 60px;
+    margin: 5%;
+}
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: absolute; 
+    justify-content: space-between; /* Space them out evenly */
+    margin: 0 10%;
+}
+
+img#photo {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.contact {
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.contact_1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact_1 img:hover {
+    border: slategrey groove 4px;
+    border-radius: 50%;
+}
+
+.contact_2 a {
+    text-decoration: none;
+}
+
+.contact_2 button:hover {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 60px;
+}
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10%px; /* Add margin to separate logo from links */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    align-items: center; /* Vertically align links with logo */
+}
+
+/* Add this class to the images to make them oval-like */
+.photo-container img {
+    border-radius: 10%;
+}
+.about_0 table,
+      th,
+      td,
+      thead {
+        border: 1px groove; black;
+        padding: 12px 15px;
+        background-color: slategrey;
+        color: #ffffff;
+        text-align: left;
+  }
+
+
+th {
+    background-color: green;
+}
+
+td {
+
+    background-color: cadetblue;
+}
+
+td a{
+
+    text-decoration: none;
+    color: white;
+}
+
+td:hover{
+    background-color: transparent;
+}
+.about_0 {
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.table-container table {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: slategrey;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: slategrey;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
